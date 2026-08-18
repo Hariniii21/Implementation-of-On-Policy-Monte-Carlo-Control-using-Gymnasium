@@ -386,36 +386,17 @@ env.close()
 
 ## Output
 
-```text
-Final Q-table:
-[[... ... ... ...]
- [... ... ... ...]
- [... ... ... ...]
- [... ... ... ...]
- ...
-]
 
-Estimated State-Value Function:
-[[... ... ... ...]
- [... ... ... ...]
- [... ... ... ...]
- [... ... ... ...]]
 
-Learned Policy:
-[['R' 'R' 'D' 'L']
- ['D' 'L' 'D' 'L']
- ['R' 'D' 'R' 'L']
- ['L' 'R' 'R' 'U']]
+<img width="781" height="660" alt="image" src="https://github.com/user-attachments/assets/3b8a110e-694f-42cd-9773-8e52558abee1" />
 
-Average reward over last 1000 episodes: ...
+<img width="1192" height="533" alt="image" src="https://github.com/user-attachments/assets/f2276e9e-13c3-4e98-8304-9ce904fac710" />
+
 ```
 
-The exact Q-values, policy, and average reward may vary slightly because the algorithm uses random exploration during training.
-
----
-
+```
 ## Result
-
+```
 The **On-Policy Monte Carlo Control algorithm** was successfully implemented using the Gymnasium `FrozenLake-v1` environment. The agent learned the action-value function $Q(s,a)$ from complete episodes and improved its policy using an epsilon-greedy strategy.
 
 ---
