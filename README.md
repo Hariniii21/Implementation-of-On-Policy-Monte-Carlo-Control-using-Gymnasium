@@ -387,22 +387,18 @@ env.close()
 ## Output
 
 
-
 <img width="781" height="660" alt="image" src="https://github.com/user-attachments/assets/3b8a110e-694f-42cd-9773-8e52558abee1" />
 
 <img width="1192" height="533" alt="image" src="https://github.com/user-attachments/assets/f2276e9e-13c3-4e98-8304-9ce904fac710" />
 
 ```
-
 ```
 ## Result
-```
+
 The **On-Policy Monte Carlo Control algorithm** was successfully implemented using the Gymnasium `FrozenLake-v1` environment. The agent learned the action-value function $Q(s,a)$ from complete episodes and improved its policy using an epsilon-greedy strategy.
 
----
-```
+
 ## Inference
-```
 The experiment demonstrates that **On-Policy Monte Carlo Control** can learn an effective policy through repeated interaction with the environment. Initially, the agent explores different actions using a high epsilon value. As training progresses, epsilon decreases and the agent increasingly exploits the learned Q-values.
 
 The learned Q-table provides the estimated value of each action in every state, while the extracted greedy policy indicates the preferred action for reaching the goal. The learning curve shows the improvement in the agent's performance over successive training episodes.
